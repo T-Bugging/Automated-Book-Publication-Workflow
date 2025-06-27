@@ -10,7 +10,7 @@ except FileNotFoundError:
 # Function to rank results based on feedback scores.
 def rankResults(results):
     combined = list(zip(
-    [doc_id[0] for doc_id in results["ids"]],  # ✅ flatten IDs
+    [doc_id[0] for doc_id in results["ids"]],  #  flatten IDs
     results["documents"],
     results["metadatas"]
 ))
