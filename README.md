@@ -49,7 +49,6 @@ Also allows the user to choose between a default editing instruction or supply t
 output/
 ├── Raw_text/          # Scraped original text
 ├── Spun_text/         # AI Writer outputs
-├── Reviewed_text/     # Finalized reviewed content
 ├── screenshots/       # Full-page browser screenshots
 ```
 
